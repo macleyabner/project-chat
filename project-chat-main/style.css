@@ -1,42 +1,34 @@
-    .cabtitulo{
-        width: 40%;
-        padding-left: 500px;
-        padding-top: 30px;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-    }
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0% auto;
+    padding:0 2%;
+}
+header{
+    padding:20px 0;
+}
 
-    .cabcasa{
-        width: 3%;
-        padding-left: ;
-    }
+.logo{
+    width: 60%;
+}
 
-    .cabhomen{
-        width: 6%;
-    }
+.menu{
+    padding-top: 50px;
+    width: 100%;
+    text-align: start;
+}
 
-    .cabmulher{
-        width: 7%;
-    }
-
-    .cabnovida{
-        width: 7%;
-    }
-
-    .cabpesquisa{
-        width: 20%;
-    }
-
-    .cabbarra{
-        width: 2px;
-        height: 37px;
-    }
-
-    .cabbarra2{
-        width: 2px;
-        height: 37px;
-    }
-
-    .cabbarra3{
-        width: 2px;
-        height: 37px;
-    }
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 40px;
+}
