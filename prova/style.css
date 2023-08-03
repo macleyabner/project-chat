@@ -1,0 +1,29 @@
+    *{
+        margin: 0%;
+        padding: 0;
+    }
+    .cabeçario{
+        background-color: rgb(10, 8, 20);
+        color: white;
+        display: flex;
+        padding: 0% 55px;
+
+    }
+
+    .imagemcabeçario{
+        width: 50%;
+    }
+
+    .titulo{
+        width: 100%;
+        margin: 6% 15px;
+    }
+    
+    .menus{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .base1{
+        width: 50%;
+    }
